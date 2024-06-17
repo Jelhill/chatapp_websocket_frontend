@@ -26,14 +26,6 @@ function App() {
     };
   }, []);
 
-  // useEffect(() => {
-    
-  //   fetch("http://localhost:3000")
-  //   .then(res => res.json())
-  //   .then(res => console.log(res))
-  //   .catch(error => console.log(error))
-  // }, []);
-
   const sendMessage = () => {
     if (username && message) {
       const msg = { username, text: message };
